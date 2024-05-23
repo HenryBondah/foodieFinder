@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Food - Foodie Finder</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="images/logo.png" alt="Foodie Finder Logo" class="logo">
+            <nav id="navbar">
+                <div id="welcome-message"></div>
+                <a href="login.html" id="login-link">Login</a>
+            </nav>
+            <div class="menu-toggle" id="mobile-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <form id="order-form" class="account-form">
+            <h1>Order Food</h1>
+            <label for="food">Select Food:</label>
+            <select id="food" name="food" required>
+                <!-- Options will be populated dynamically -->
+            </select>
+
+            <label for="drink">Select Drink:</label>
+            <select id="drink" name="drink" required>
+                <!-- Options will be populated dynamically -->
+            </select>
+
+            <button type="submit">Submit Order</button>
+        </form>
+        <div id="order-complete" class="order-complete" style="display: none;">
+            <h1>Food Order Complete</h1>
+            <p>Sit back and relax while your food is on the way!</p>
+        </div>
+    </main>
+
+    <footer>
+        &copy; 2024 Foodie Finder
+    </footer>
+</body>
+</html>
