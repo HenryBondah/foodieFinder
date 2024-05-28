@@ -10,16 +10,16 @@ document.addEventListener('DOMContentLoaded', function () {
 
     const data = {
         "foods": [
-            { "name": "Pizza", "image": "/pizza.jpeg", "description": "A delicious cheese and tomato pizza." },
-            { "name": "Burger", "image": "/burger.jpeg", "description": "A juicy beef burger with all the trimmings." },
-            { "name": "Sushi", "image": "/sushi.jpeg", "description": "Fresh sushi rolls with a variety of fillings." },
-            { "name": "Pasta", "image": "/pasta.jpeg", "description": "Creamy pasta with a rich and savory sauce." },
-            { "name": "Salad", "image": "/salad.jpeg", "description": "A healthy salad with fresh greens and vegetables." },
-            { "name": "Steak", "image": "/steak.jpeg", "description": "Grilled steak cooked to perfection." },
-            { "name": "Tacos", "image": "/tacos.jpeg", "description": "Tasty tacos with a variety of fillings." },
-            { "name": "Ramen", "image": "/ramen.jpeg", "description": "Hot and comforting ramen soup." },
-            { "name": "Curry", "image": "/curry.jpeg", "description": "Spicy and flavorful curry." },
-            { "name": "Biryani", "image": "/biryani.jpeg", "description": "Aromatic biryani rice with tender meat." }
+            { "name": "Pizza", "image": "./pizza.jpeg", "description": "A delicious cheese and tomato pizza." },
+            { "name": "Burger", "image": "./burger.jpeg", "description": "A juicy beef burger with all the trimmings." },
+            { "name": "Sushi", "image": "./sushi.jpeg", "description": "Fresh sushi rolls with a variety of fillings." },
+            { "name": "Pasta", "image": "./pasta.jpeg", "description": "Creamy pasta with a rich and savory sauce." },
+            { "name": "Salad", "image": "./salad.jpeg", "description": "A healthy salad with fresh greens and vegetables." },
+            { "name": "Steak", "image": "./steak.jpeg", "description": "Grilled steak cooked to perfection." },
+            { "name": "Tacos", "image": "./tacos.jpeg", "description": "Tasty tacos with a variety of fillings." },
+            { "name": "Ramen", "image": "./ramen.jpeg", "description": "Hot and comforting ramen soup." },
+            { "name": "Curry", "image": "./curry.jpeg", "description": "Spicy and flavorful curry." },
+            { "name": "Biryani", "image": "./biryani.jpeg", "description": "Aromatic biryani rice with tender meat." }
         ],
         "drinks": [
             { "name": "Coke", "image": "/coke.jpeg", "description": "Refreshing cola drink." },
