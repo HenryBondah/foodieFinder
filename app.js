@@ -10,30 +10,30 @@ document.addEventListener('DOMContentLoaded', function () {
 
     const data = {
         "foods": [
-            { "name": "Pizza", "image": "./images/pizza.jpeg", "description": "A delicious cheese and tomato pizza." },
-            { "name": "Burger", "image": "images/burger.jpeg", "description": "A juicy beef burger with all the trimmings." },
-            { "name": "Sushi", "image": "../images/sushi.jpeg", "description": "Fresh sushi rolls with a variety of fillings." },
-            { "name": "Pasta", "image": "../images/pasta.jpeg", "description": "Creamy pasta with a rich and savory sauce." },
-            { "name": "Salad", "image": "../images/salad.jpeg", "description": "A healthy salad with fresh greens and vegetables." },
-            { "name": "Steak", "image": "../images/steak.jpeg", "description": "Grilled steak cooked to perfection." },
-            { "name": "Tacos", "image": "../images/tacos.jpeg", "description": "Tasty tacos with a variety of fillings." },
-            { "name": "Ramen", "image": "../images/ramen.jpeg", "description": "Hot and comforting ramen soup." },
-            { "name": "Curry", "image": "../images/curry.jpeg", "description": "Spicy and flavorful curry." },
-            { "name": "Biryani", "image": "../images/biryani.jpeg", "description": "Aromatic biryani rice with tender meat." }
-        ],
-        "drinks": [
-            { "name": "Coke", "image": "../images/coke.jpeg", "description": "Refreshing cola drink." },
-            { "name": "Juice", "image": "../images/juice.jpeg", "description": "Fresh fruit juice." },
-            { "name": "Water", "image": "../images/water.jpeg", "description": "Pure and clean water." },
-            { "name": "Tea", "image": "../images/tea.jpeg", "description": "A warm cup of tea." },
-            { "name": "Coffee", "image": "../images/coffee.jpeg", "description": "A hot cup of coffee." },
-            { "name": "Milkshake", "image": "../images/milkshake.jpeg", "description": "A creamy milkshake." },
-            { "name": "Smoothie", "image": "../images/smoothie.jpeg", "description": "A healthy fruit smoothie." },
-            { "name": "Beer", "image": "../images/beer.jpeg", "description": "A cold beer." },
-            { "name": "Wine", "image": "../images/wine.jpeg", "description": "A glass of wine." },
-            { "name": "Lemonade", "image": "../images/lemonade.jpeg", "description": "Refreshing lemonade." }
-        ]
-    };
+        { "name": "Pizza", "image": "images/pizza.jpeg", "description": "A delicious cheese and tomato pizza." },
+        { "name": "Burger", "image": "images/burger.jpeg", "description": "A juicy beef burger with all the trimmings." },
+        { "name": "Sushi", "image": "images/sushi.jpeg", "description": "Fresh sushi rolls with a variety of fillings." },
+        { "name": "Pasta", "image": "images/pasta.jpeg", "description": "Creamy pasta with a rich and savory sauce." },
+        { "name": "Salad", "image": "images/salad.jpeg", "description": "A healthy salad with fresh greens and vegetables." },
+        { "name": "Steak", "image": "images/steak.jpeg", "description": "Grilled steak cooked to perfection." },
+        { "name": "Tacos", "image": "images/tacos.jpeg", "description": "Tasty tacos with a variety of fillings." },
+        { "name": "Ramen", "image": "images/ramen.jpeg", "description": "Hot and comforting ramen soup." },
+        { "name": "Curry", "image": "images/curry.jpeg", "description": "Spicy and flavorful curry." },
+        { "name": "Biryani", "image": "images/biryani.jpeg", "description": "Aromatic biryani rice with tender meat." }
+    ],
+    "drinks": [
+        { "name": "Coke", "image": "images/coke.jpeg", "description": "Refreshing cola drink." },
+        { "name": "Juice", "image": "images/juice.jpeg", "description": "Fresh fruit juice." },
+        { "name": "Water", "image": "images/water.jpeg", "description": "Pure and clean water." },
+        { "name": "Tea", "image": "images/tea.jpeg", "description": "A warm cup of tea." },
+        { "name": "Coffee", "image": "images/coffee.jpeg", "description": "A hot cup of coffee." },
+        { "name": "Milkshake", "image": "images/milkshake.jpeg", "description": "A creamy milkshake." },
+        { "name": "Smoothie", "image": "images/smoothie.jpeg", "description": "A healthy fruit smoothie." },
+        { "name": "Beer", "image": "images/beer.jpeg", "description": "A cold beer." },
+        { "name": "Wine", "image": "images/wine.jpeg", "description": "A glass of wine." },
+        { "name": "Lemonade", "image": "images/lemonade.jpeg", "description": "Refreshing lemonade." }
+    ]
+};
 
     function populateSelects() {
         populateSelect('food', data.foods);
