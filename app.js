@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     const data = {
         "foods": [
-            { "name": "Coke", "image": "images/coke.jpeg", "description": "Refreshing cola drink." },
+            { "name": "Coke", "image": "images/pizza.jpeg", "description": "Refreshing cola drink." },
              { "name": "Coke", "image": "images/coke.jpeg", "description": "Refreshing cola drink." },
         { "name": "Pizza", "image": "images/pizza.jpeg", "description": "A delicious cheese and tomato pizza." },
         { "name": "Burger", "image": "images/burger.jpeg", "description": "A juicy beef burger with all the trimmings." },
