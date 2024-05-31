@@ -10,12 +10,10 @@ document.addEventListener('DOMContentLoaded', function () {
 
     const data = {
         "foods": [
-            { "name": "Coke", "image": "images/tea.jpeg", "description": "11 Refreshing cola drink." },
-             { "name": "Coke", "image": "images/coke.jpeg", "description": "Refreshing cola drink." },
         { "name": "Pizza", "image": "images/Pizza.jpg", "description": "A delicious cheese and tomato pizza." },
-        { "name": "Burger", "image": "images/Burger.jpg", "description": "A juicy beef burger with all the trimmings." },
-        { "name": "Sushi", "image": "images/Sushi.jpg", "description": "Fresh sushi rolls with a variety of fillings." },
-        { "name": "Pasta", "image": "images/Pasta.jpg", "description": "Creamy pasta with a rich and savory sauce." },
+        { "name": "Burger", "image": "images/Burger.jpeg", "description": "A juicy beef burger with all the trimmings." },
+        { "name": "Sushi", "image": "images/Sushi.jpeg", "description": "Fresh sushi rolls with a variety of fillings." },
+        { "name": "Pasta", "image": "images/Pasta.jpeg", "description": "Creamy pasta with a rich and savory sauce." },
         { "name": "Salad", "image": "images/Salad.jpeg", "description": "A healthy salad with fresh greens and vegetables." },
         { "name": "Steak", "image": "images/Steak.jpeg", "description": "Grilled steak cooked to perfection." },
         { "name": "Tacos", "image": "images/Tacos.jpeg", "description": "Tasty tacos with a variety of fillings." },
