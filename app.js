@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function () {
         "foods": [
             { "name": "Coke", "image": "images/tea.jpeg", "description": "11 Refreshing cola drink." },
              { "name": "Coke", "image": "images/coke.jpeg", "description": "Refreshing cola drink." },
-        { "name": "Pizza", "image": "images/pizza.jpeg", "description": "A delicious cheese and tomato pizza." },
+        { "name": "Pizza", "image": "images/pizza.jpg", "description": "A delicious cheese and tomato pizza." },
         { "name": "Burger", "image": "images/burger.jpeg", "description": "A juicy beef burger with all the trimmings." },
         { "name": "Sushi", "image": "images/sushi.jpeg", "description": "Fresh sushi rolls with a variety of fillings." },
         { "name": "Pasta", "image": "images/pasta.jpeg", "description": "Creamy pasta with a rich and savory sauce." },
