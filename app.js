@@ -12,16 +12,16 @@ document.addEventListener('DOMContentLoaded', function () {
         "foods": [
             { "name": "Coke", "image": "images/tea.jpeg", "description": "11 Refreshing cola drink." },
              { "name": "Coke", "image": "images/coke.jpeg", "description": "Refreshing cola drink." },
-        { "name": "Pizza", "image": "images/pizza.jpg", "description": "A delicious cheese and tomato pizza." },
-        { "name": "Burger", "image": "images/burger.jpeg", "description": "A juicy beef burger with all the trimmings." },
-        { "name": "Sushi", "image": "images/sushi.jpeg", "description": "Fresh sushi rolls with a variety of fillings." },
-        { "name": "Pasta", "image": "images/pasta.jpeg", "description": "Creamy pasta with a rich and savory sauce." },
-        { "name": "Salad", "image": "images/salad.jpeg", "description": "A healthy salad with fresh greens and vegetables." },
-        { "name": "Steak", "image": "images/steak.jpeg", "description": "Grilled steak cooked to perfection." },
-        { "name": "Tacos", "image": "images/tacos.jpeg", "description": "Tasty tacos with a variety of fillings." },
-        { "name": "Ramen", "image": "images/ramen.jpeg", "description": "Hot and comforting ramen soup." },
-        { "name": "Curry", "image": "images/curry.jpeg", "description": "Spicy and flavorful curry." },
-        { "name": "Biryani", "image": "images/biryani.jpeg", "description": "Aromatic biryani rice with tender meat." }
+        { "name": "Pizza", "image": "images/Pizza.jpg", "description": "A delicious cheese and tomato pizza." },
+        { "name": "Burger", "image": "images/Burger.jpg", "description": "A juicy beef burger with all the trimmings." },
+        { "name": "Sushi", "image": "images/Sushi.jpg", "description": "Fresh sushi rolls with a variety of fillings." },
+        { "name": "Pasta", "image": "images/Pasta.jpg", "description": "Creamy pasta with a rich and savory sauce." },
+        { "name": "Salad", "image": "images/Salad.jpeg", "description": "A healthy salad with fresh greens and vegetables." },
+        { "name": "Steak", "image": "images/Steak.jpeg", "description": "Grilled steak cooked to perfection." },
+        { "name": "Tacos", "image": "images/Tacos.jpeg", "description": "Tasty tacos with a variety of fillings." },
+        { "name": "Ramen", "image": "images/Ramen.jpeg", "description": "Hot and comforting ramen soup." },
+        { "name": "Curry", "image": "images/Curry.jpeg", "description": "Spicy and flavorful curry." },
+        { "name": "Biryani", "image": "images/Biryani.jpeg", "description": "Aromatic biryani rice with tender meat." }
     ],
     "drinks": [
         { "name": "Coke", "image": "images/coke.jpeg", "description": "Refreshing cola drink." },
